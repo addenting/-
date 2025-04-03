@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Конфигурация
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "7753002573:AAEPGMtrrAQ3SkPC0d2eZdXwpw6um64063M"
 CSV_FILES_PATTERN = "data/*.csv"  # Шаблон для поиска CSV файлов
 WHITELIST_FILE = "data/whitelist.csv"  # Файл с доверенными пользователями
 
